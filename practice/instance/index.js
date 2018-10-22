@@ -1,6 +1,6 @@
 import Vue from 'vue'
 
-const app = new Vue({
+const app = new Vue( {
   // el: '#root',
   template: '<div>{{text}}</div>',
   data () {
@@ -10,7 +10,7 @@ const app = new Vue({
   }
 })
 
-app.$mount('#root'  ) //挂载到html
+app.$mount('#root') //挂载到html
 
 
 // setInterval(() => {
