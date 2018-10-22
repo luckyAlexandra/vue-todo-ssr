@@ -10,7 +10,7 @@ const app = new Vue({
   }
 })
 
-app.$mount('#root' ) //挂载到html
+app.$mount('#root'  ) //挂载到html
 
 
 // setInterval(() => {
